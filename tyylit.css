@@ -241,6 +241,7 @@ nav.glowing-border a {
     flex: 1 1 auto; 
     text-align: center;
     padding: 10px;
+    overflow: hidden;
 }
 
 
@@ -254,4 +255,56 @@ nav.glowing-border a {
         width: 100%; 
         padding: 15px 0;
     }
+}
+.card {
+    background: #000000; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(183, 0, 255, 0.1); 
+    padding: 20px;
+    max-width: 400px; 
+    margin: 20px auto; 
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.card h4 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.card table th, .card table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.card table th {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card table td {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card table tr:nth-child(even) td {
+    background-color: #000000; 
+}
+.card:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 0, 255, 0.6), 0 0 30px 15px rgba(0, 255, 255, 0.6), 0 0 40px 20px rgba(255, 255, 0, 0.6);
+    transform: translateY(-5px); 
 }
