@@ -80,12 +80,37 @@ main {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background: #222222;
+    padding: 20px;
+    background: #00000000;
     color: #fff;
     margin-top: 100px;
+    position: relative;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.8); 
+    animation: glow-effect 1.5s ease-in-out infinite alternate; 
 }
 
+footer a {
+    color: #ff00ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; 
+}
+
+@keyframes glow-effect {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 0, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(255, 0, 255, 1);
+    }
+}
 body {
     background-color: #888b89;
 }
