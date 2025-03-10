@@ -133,7 +133,7 @@ main {
 /* Tekstien tyyli */
 h1{
     font-weight: 800;
-    background: linear-gradient(to right, #ff00d4, #fbff00);
+    background: linear-gradient(to right, #ff00d4, #ff9f32);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
