@@ -159,21 +159,8 @@ background-clip: text;
 color: transparent;
 font-size: 48px;
 text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.473);
-background-size: 200% 200%;
-animation: gradientShift 3s ease infinite;
 }
 
-@keyframes gradientShift {
-    0% {
-      background-position: 0% 75%;
-    }
-    50% {
-      background-position: 100% 25%;
-    }
-    100% {
-      background-position: 0% 75%;
-    }
-}
 p {
     font-weight: 400;
     font-size: 25px;
