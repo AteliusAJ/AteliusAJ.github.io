@@ -131,10 +131,15 @@ main {
 }
 
 /* Tekstien tyyli */
-h1 {
-    font-weight: 100;
-    font-size: 44px;
-}
+h1{
+    font-weight: 800;
+    background: linear-gradient(to right, #ff00d4, #fbff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.473);
+    }
 
 h2 {
     font-weight: 300;
@@ -149,16 +154,6 @@ h3 {
 h4 {
     font-weight: 700;
     font-size: 30px;
-}
-
-h5{
-font-weight: 800;
-background: linear-gradient(to right, #ff00d4, #fbff00);
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
-font-size: 48px;
-text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.473);
 }
 
 p {
